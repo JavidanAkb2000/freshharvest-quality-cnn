@@ -1,0 +1,31 @@
+# --- Python & System ---
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+.env
+venv/
+.idea/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Ignore EVERYTHING inside notebooks folder by default
+notebooks/*
+
+# --- Data ---
+data/
+
+# --- Models & Weights ---
+*.pth
+*.pt
+
+# --- EXCEPTIONS (Things we want to keep) ---
+
+# 1. Keep the specific model used in app.py
+!notebooks/best_efficientnet_b0_transfer.pth
+
+# 2. Keep configuration JSON files
+!notebooks/*.json

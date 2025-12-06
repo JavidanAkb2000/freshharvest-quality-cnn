@@ -1,0 +1,46 @@
+{
+    "title": "FreshHarvest CNN Training Configuration",
+    "description": "Configuration that achieved 97.04% test accuracy",
+    "model": {
+        "class": "FreshHarvestCNN",
+        "conv_filters": [
+            32,
+            64,
+            128,
+            256
+        ],
+        "fc_units": [
+            512,
+            128
+        ],
+        "output_classes": 2,
+        "dropout_rate": 0.5
+    },
+    "optimizer": {
+        "type": "torch.optim.Adam",
+        "lr": 0.001,
+        "betas": [
+            0.9,
+            0.999
+        ],
+        "eps": 1e-08
+    },
+    "scheduler": {
+        "type": "torch.optim.lr_scheduler.ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 3,
+        "verbose": true,
+        "importance": "CRITICAL - Without scheduler, accuracy may plateau at ~90%"
+    },
+    "training_params": {
+        "epochs": 25,
+        "batch_size": 32,
+        "criterion": "CrossEntropyLoss"
+    },
+    "key_insights": [
+        "Scheduler automatically adjusted LR from 0.001 \u2192 0.0005 \u2192 0.00025",
+        "This fine-tuning pushed accuracy from ~90% to 97%",
+        "Without scheduler, model likely plateaus around 88-92%"
+    ]
+}

@@ -1,10 +1,3 @@
-Alright bro, here’s the **elite-level README** — polished, structured, recruiter-friendly, technically legit, visually clean.
-Everything is rewritten to sound sharp and professional while keeping your vibe and your project’s soul.
-
-You can literally copy-paste this into your repo **as is**.
-
----
-
 # 🍎 FreshHarvest AI Inspector
 
 ### **"Ensuring Quality, One Fruit at a Time."**

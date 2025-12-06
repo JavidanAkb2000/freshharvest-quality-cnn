@@ -4,7 +4,11 @@
 
 Welcome to **FreshHarvest AI Inspector**, an intelligent quality control system designed to automatically detect whether fruits are fresh or spoiled using state-of-the-art Computer Vision.
 
-![FreshHarvest UI Demo](resources/ui_demo_preview.png)
+![FreshHarvest UI Demo](resources/ui_1.png)
+
+![FreshHarvest UI Demo](resources/ui_2.png)
+
+![FreshHarvest UI Demo](resources/ui_3.png)
 
 ---
 

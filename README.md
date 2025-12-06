@@ -3,6 +3,7 @@
 > **"Ensuring Quality, One Fruit at a Time."**
 
 Welcome to **FreshHarvest AI Inspector**, an intelligent quality control system designed to automatically detect whether fruits are fresh or spoiled using state-of-the-art Computer Vision.
+Streamlit Link - https://freshharvestcnn.streamlit.app/
 
 ![FreshHarvest UI Demo](resources/ui_1.png)
 
